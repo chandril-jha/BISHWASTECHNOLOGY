@@ -1,11 +1,9 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Basic styling */
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
@@ -19,7 +17,6 @@ a {
     text-decoration: none;
 }
 
-/* Header and navigation styles */
 header {
     background: #fff;
     padding: 10px 0;
@@ -71,7 +68,6 @@ nav ul li a:hover {
     color: #007bff;
 }
 
-/* Light/Dark Mode Switch */
 .switch {
     position: absolute;
     top: 10px;
@@ -127,8 +123,6 @@ input:checked + .slider:before {
     transform: translateX(26px);
 }
 
-
-/* Dark mode styles */
 body.dark-mode {
     background: #121212;
     color: #ffffff;
@@ -151,7 +145,6 @@ body.dark-mode nav ul li a:hover {
     color: #0d6efd;
 }
 
-/* Hero section */
 .hero {
     background: #e9ecef;
     text-align: center;
@@ -177,7 +170,6 @@ body.dark-mode nav ul li a:hover {
     margin-right: 10px;
     transition: background-color 0.3s, transform 0.3s;
     margin-bottom: 25px;
-    
 }
 
 .cta-button:hover {
@@ -185,13 +177,11 @@ body.dark-mode nav ul li a:hover {
     transform: translateY(-2px);
 }
 
-/* About section */
 .about-section {
     padding: 40px 0;
     text-align: center;
 }
 
-/* Education section */
 .accordion-button {
     background: none;
     border: none;
@@ -214,8 +204,6 @@ body.dark-mode nav ul li a:hover {
     margin-bottom: 10px;
 }
 
-
-/* Projects section */
 .projects-section {
     padding: 50px 0;
 }
@@ -249,7 +237,6 @@ body.dark-mode nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-/* Skills section */
 .skills-section {
     padding: 50px 0;
     text-align: center;
@@ -276,7 +263,6 @@ body.dark-mode nav ul li a:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Contact section */
 .contact-section {
     padding: 50px 0;
     background: #fff;
@@ -311,7 +297,6 @@ body.dark-mode nav ul li a:hover {
     cursor: pointer;
 }
 
-/* Dark mode styles for contact section */
 body.dark-mode .contact-section {
     background: #262626;
     color: #ffffff;
@@ -328,8 +313,6 @@ body.dark-mode .contact-section button.submit-button {
     background: #0d6efd;
 }
 
-
-/* Footer */
 footer {
     background: #333;
     color: #fff;
@@ -352,7 +335,6 @@ footer {
     color: #ff0000;
 }
 
-/* Responsive design for smaller screens */
 @media (max-width: 768px) {
     .burger-menu {
         display: block;
@@ -381,9 +363,9 @@ footer {
 
     .switch {
         position: fixed;
-        z-index: 1100; /* Higher than the header z-index */
+        z-index: 1100;
     }
-    
+
     .project {
         width: 100%;
     }
@@ -392,5 +374,3 @@ footer {
         flex-direction: column;
     }
 }
-
-
